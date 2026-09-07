@@ -5,7 +5,7 @@ about:
   head: 4ca60f7
   archived: false
   latestVersion: "5.9.2"
-  collectedAt: 2026-09-07T06:13:27Z
+  collectedAt: 2026-09-07T18:28:02Z
 timeline:
   created: 2016-07-04
   lastCommit: 2026-06-30
@@ -81,7 +81,7 @@ total:
   commit: 3049
 ---
 path: /home/runner/.x-repo/github.com/Yubico/yubikey-manager
-collectedAt: 2026-09-07T06:13:29Z
+collectedAt: 2026-09-07T18:28:04Z
 loc:
   Python:
     code: 25040
@@ -245,7 +245,7 @@ checks:
       - 'Info: all commits (13) are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:13:30+00:00
+  collectedAt: 2026-09-07T18:28:05+00:00
   platform:
     darwin/arm64:
       name:  null
