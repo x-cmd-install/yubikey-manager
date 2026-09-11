@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 29979421,
       "digest": "sha256:7e67a3c96c0f951b059ee434c6d03e1acc6bf30fe056a2b86781aab58d09236f",
-      "download_count": 3947,
+      "download_count": 3955,
       "created_at": "2026-06-30T15:02:41Z",
       "updated_at": "2026-06-30T15:02:44Z",
       "browser_download_url": "https://github.com/Yubico/yubikey-manager/releases/download/5.9.2/yubikey-manager-5.9.2-mac.pkg"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 22396928,
       "digest": "sha256:54e5830c56fafcdde80037de490a88de4fe3afc398fc2ad7ccbffcfc6b93be9f",
-      "download_count": 7039,
+      "download_count": 7064,
       "created_at": "2026-06-30T15:02:45Z",
       "updated_at": "2026-06-30T15:02:48Z",
       "browser_download_url": "https://github.com/Yubico/yubikey-manager/releases/download/5.9.2/yubikey-manager-5.9.2-win64.msi"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 310,
       "digest": "sha256:f1e5e6cba52ecf479ce8b5e80eca9ecc85b4fbf785f576012be897ec54fb226b",
-      "download_count": 93,
+      "download_count": 94,
       "created_at": "2026-06-30T15:02:48Z",
       "updated_at": "2026-06-30T15:02:48Z",
       "browser_download_url": "https://github.com/Yubico/yubikey-manager/releases/download/5.9.2/yubikey-manager-5.9.2-win64.msi.sig"
