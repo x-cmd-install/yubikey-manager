@@ -7,7 +7,7 @@ about:
   latestVersion: "5.9.2"
   latestRelease: "5.9.2"
   latestPrerelease: "yubikey-manager-0.1.0"
-  collectedAt: 2026-09-11T06:18:43Z
+  collectedAt: 2026-09-11T18:26:04Z
 timeline:
   created: 2016-07-04
   lastCommit: 2026-06-30
@@ -85,7 +85,7 @@ total:
   commit: 3049
 ---
 path: /home/runner/.x-repo/github.com/Yubico/yubikey-manager
-collectedAt: 2026-09-11T06:18:45Z
+collectedAt: 2026-09-11T18:26:06Z
 loc:
   Python:
     code: 25040
