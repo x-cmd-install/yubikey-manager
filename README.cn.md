@@ -48,7 +48,7 @@ x install yubikey-manager
 
 ## 流行度
 
-- **Star**: 1,186 · **Fork**: 158 · **开放 issue**: 368 · **贡献者**: 59
+- **Star**: 1,186 · **Fork**: 157 · **开放 issue**: 368 · **贡献者**: 59
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install yubikey-manager
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-06-15 | 1 | 1 | 2 | 0 | 4 | 8 |
-| last180d | 2026-03-17 | 2 | 2 | 7 | 1 | 6 | 17 |
-| 360d | 2025-09-18 | 3 | 7 | 8 | 5 | 12 | 82 |
-| last720d | 2024-09-23 | 9 | 12 | 8 | 41 | 19 | 238 |
+| 30d | 2026-08-15 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 2 | 0 | 1 | 0 |
+| 90d | 2026-06-16 | 1 | 1 | 2 | 0 | 4 | 8 |
+| last180d | 2026-03-18 | 2 | 2 | 7 | 1 | 6 | 17 |
+| 360d | 2025-09-19 | 3 | 7 | 8 | 5 | 12 | 82 |
+| last720d | 2024-09-24 | 9 | 12 | 8 | 41 | 19 | 238 |
 
 ## Release 资产
 
@@ -78,25 +78,6 @@ x install yubikey-manager
 | [yubikey_manager-5.9.2.tar.gz](https://github.com/Yubico/yubikey-manager/releases/download/5.9.2/yubikey_manager-5.9.2.tar.gz) | 231.7 KiB | `native/unknown` |
 | [yubikey_manager-5.9.2.tar.gz.sig](https://github.com/Yubico/yubikey-manager/releases/download/5.9.2/yubikey_manager-5.9.2.tar.gz.sig) | 310 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/yubikey-manager) 上共有 **138** 个发行版报告此项目。**20** 个 ✅ 已是最新上游版本，**106** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `5.9.2` | ✅ latest |
-| Debian 14 | `5.9.2` | ✅ latest |
-| Debian 13 | `5.6.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.8.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.2.1` | ⚠️ outdated |
-| Arch | `5.9.1` | ⚠️ outdated |
-| Homebrew | `5.9.2` | ✅ latest |
-| Fedora rawhide | `5.9.2` | ✅ latest |
-| Nix unstable | `5.9.2` | ✅ latest |
-| Void | `5.9.2` | ✅ latest |
-| Alpine edge | `5.8.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
-
 ## 改进这些数据
 
 yubikey-manager 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `yubikey-manager` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -106,4 +87,4 @@ yubikey-manager 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/i
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:31:52Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:43:05Z._
