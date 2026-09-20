@@ -4,7 +4,7 @@
 
 Python library and command line tool for configuring any YubiKey over all USB interfaces.
 
-![yubikey-manager](https://repo.x-cmd.io/yubikey-manager.svg)
+[![x-cmd/install — yubikey-manager Code Quality Monitoring Repo Card](https://repo.x-cmd.io/yubikey-manager.svg)](https://x-cmd.com/install/yubikey-manager)
 
 ## Install
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 1 | 0 | 2 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 2 | 0 | 2 | 0 |
-| 90d | 2026-06-20 | 1 | 1 | 2 | 0 | 5 | 8 |
-| last180d | 2026-03-22 | 2 | 2 | 7 | 1 | 7 | 17 |
-| 360d | 2025-09-23 | 3 | 7 | 8 | 5 | 13 | 82 |
-| last720d | 2024-09-28 | 9 | 12 | 8 | 40 | 20 | 238 |
+| 30d | 2026-08-21 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 1 | 0 | 2 | 0 |
+| 90d | 2026-06-22 | 1 | 1 | 2 | 0 | 4 | 7 |
+| last180d | 2026-03-24 | 2 | 2 | 7 | 1 | 7 | 17 |
+| 360d | 2025-09-25 | 3 | 7 | 8 | 5 | 12 | 81 |
+| last720d | 2024-09-30 | 9 | 12 | 8 | 40 | 20 | 238 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:42:13Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:33:57Z._
