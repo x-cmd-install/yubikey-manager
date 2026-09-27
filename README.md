@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 0 | 0 | 1 | 0 | 3 | 0 |
-| last60d | 2026-07-28 | 0 | 0 | 1 | 0 | 3 | 0 |
-| 90d | 2026-06-28 | 1 | 1 | 2 | 0 | 5 | 7 |
-| last180d | 2026-03-30 | 2 | 2 | 3 | 1 | 8 | 17 |
-| 360d | 2025-10-01 | 3 | 6 | 8 | 5 | 13 | 81 |
-| last720d | 2024-10-06 | 9 | 12 | 8 | 40 | 21 | 235 |
+| 30d | 2026-08-28 | 0 | 0 | 1 | 0 | 2 | 0 |
+| last60d | 2026-07-29 | 0 | 0 | 1 | 0 | 3 | 0 |
+| 90d | 2026-06-29 | 1 | 1 | 2 | 0 | 4 | 7 |
+| last180d | 2026-03-31 | 2 | 2 | 3 | 1 | 8 | 17 |
+| 360d | 2025-10-02 | 3 | 6 | 8 | 5 | 12 | 81 |
+| last720d | 2024-10-07 | 9 | 12 | 8 | 40 | 21 | 235 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T06:09:12Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T06:38:41Z._
