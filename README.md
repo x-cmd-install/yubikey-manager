@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,194 · **Forks**: 157 · **Open issues**: 370 · **Contributors**: 59
+- **Stars**: 1,195 · **Forks**: 157 · **Open issues**: 370 · **Contributors**: 59
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-08-02 | 0 | 0 | 0 | 0 | 3 | 0 |
-| 90d | 2026-07-03 | 0 | 0 | 1 | 0 | 4 | 0 |
-| last180d | 2026-04-04 | 2 | 2 | 2 | 1 | 7 | 0 |
-| 360d | 2025-10-06 | 3 | 6 | 7 | 5 | 12 | 0 |
-| last720d | 2024-10-11 | 9 | 12 | 7 | 40 | 21 | 235 |
+| 30d | 2026-09-02 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-08-03 | 0 | 0 | 0 | 0 | 3 | 0 |
+| 90d | 2026-07-04 | 0 | 0 | 1 | 0 | 4 | 0 |
+| last180d | 2026-04-05 | 2 | 2 | 2 | 1 | 7 | 17 |
+| 360d | 2025-10-07 | 3 | 6 | 7 | 5 | 12 | 78 |
+| last720d | 2024-10-12 | 9 | 12 | 7 | 40 | 21 | 235 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T07:21:20Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T06:59:50Z._
