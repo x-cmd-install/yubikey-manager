@@ -1,3 +1,14 @@
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: yubikey-manager
+  binname: yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.9.2
+  origversion: 1:5.9.2-1
+  status: newest
+  summary: Python library and command line tool for configuring a YubiKey
+  licenses:
+    - BSD-2-Clause
 - repo: aerynos
   srcname: yubikey-manager
   visiblename: yubikey-manager
@@ -59,20 +70,6 @@
     - oss@cogitri.dev
   licenses:
     - BSD-2-Clause
-- repo: nix_stable_24_11
-  srcname: yubikey-manager
-  visiblename: python3.12-yubikey-manager
-  version: 5.5.1
-  origversion: null
-  status: outdated
-  summary: Command line tool for configuring any YubiKey over all USB transports
-  maintainers:
-    - benley@gmail.com
-    - lassulus@gmail.com
-    - mail@pablo.tools
-    - nickcao@nichi.co
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_3_18
   subrepo: community
   srcname: yubikey-manager
@@ -125,6 +122,24 @@
     - oss@cogitri.dev
   licenses:
     - BSD-2-Clause
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-ykman
+    - python3-yubikey-manager
+  visiblename: yubikey-manager
+  version: 4.0.9
+  origversion: 4.0.9-1
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - afif@debian.org
+    - nicoo@debian.org
+    - taowa@debian.org
+  categories:
+    - misc
 - repo: alpine_3_20
   subrepo: community
   srcname: yubikey-manager
@@ -229,6 +244,24 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-2-Clause
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-ykman
+  visiblename: yubikey-manager
+  version: 5.6.1
+  origversion: 5.6.1+repack1-1
+  status: outdated
+  maintainers:
+    - pkg-auth-maintainers@lists.alioth.debian.org
+    - afif@debian.org
+    - nicoo@debian.org
+    - taowa@debian.org
+    - winnie@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: yubikey-manager
@@ -294,69 +327,63 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-2-Clause
-- repo: arch
-  subrepo: extra
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yubikey-manager
+  binname: yubikey-manager-zsh-completion
+  visiblename: yubikey-manager-zsh-completion
+  version: 5.6.1
+  origversion: 5.6.1-r0
+  status: outdated
+  summary: Zsh completions for yubikey-manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_22
+  subrepo: community
+  srcname: yubikey-manager
+  binname: py3-ykman
+  visiblename: py3-ykman
+  version: 5.6.1
+  origversion: 5.6.1-r0
+  status: outdated
+  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_23
+  subrepo: community
   srcname: yubikey-manager
   binname: yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.8.0
+  origversion: 5.8.0-r0
+  status: outdated
+  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-2-Clause
+- repo: debian_14
+  subrepo: forky/main
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-ykman
   visiblename: yubikey-manager
   version: 5.9.2
-  origversion: 1:5.9.2-1
+  origversion: 5.9.2-1
   status: newest
-  summary: Python library and command line tool for configuring a YubiKey
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yubikey-manager
-  binname: yubikey-manager-zsh-completion
-  visiblename: yubikey-manager-zsh-completion
-  version: 5.6.1
-  origversion: 5.6.1-r0
-  status: outdated
-  summary: Zsh completions for yubikey-manager
   maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_22
-  subrepo: community
-  srcname: yubikey-manager
-  binname: py3-ykman
-  visiblename: py3-ykman
-  version: 5.6.1
-  origversion: 5.6.1-r0
-  status: outdated
-  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yubikey-manager
-  binname: py3-ykman
-  visiblename: py3-ykman
-  version: 5.8.0
-  origversion: 5.8.0-r0
-  status: outdated
-  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_23
-  subrepo: community
-  srcname: yubikey-manager
-  binname: yubikey-manager
-  visiblename: yubikey-manager
-  version: 5.8.0
-  origversion: 5.8.0-r0
-  status: outdated
-  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
+    - team+pkg-security@tracker.debian.org
+    - afif@debian.org
+    - nicoo@debian.org
+    - taowa@debian.org
+    - winnie@debian.org
+  categories:
+    - misc
 - repo: alpine_3_23
   subrepo: community
   srcname: yubikey-manager
@@ -409,24 +436,13 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-2-Clause
-- repo: arch_testing
-  subrepo: extra-testing
-  srcname: yubikey-manager
-  binname: yubikey-manager
-  visiblename: yubikey-manager
-  version: 5.9.2
-  origversion: 1:5.9.2-2
-  status: newest
-  summary: Python library and command line tool for configuring a YubiKey
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_24
+- repo: alpine_3_23
   subrepo: community
   srcname: yubikey-manager
   binname: py3-ykman
   visiblename: py3-ykman
   version: 5.8.0
-  origversion: 5.8.0-r3
+  origversion: 5.8.0-r0
   status: outdated
   summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
   maintainers:
@@ -472,6 +488,24 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-2-Clause
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-ykman
+  visiblename: yubikey-manager
+  version: 5.9.2
+  origversion: 5.9.2-1
+  status: newest
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - afif@debian.org
+    - nicoo@debian.org
+    - taowa@debian.org
+    - winnie@debian.org
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: yubikey-manager
@@ -511,6 +545,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-2-Clause
+- repo: alpine_3_24
+  subrepo: community
+  srcname: yubikey-manager
+  binname: py3-ykman
+  visiblename: py3-ykman
+  version: 5.8.0
+  origversion: 5.8.0-r3
+  status: outdated
+  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_edge
   subrepo: community
   srcname: yubikey-manager
@@ -524,15 +571,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-2-Clause
-- repo: chocolatey
-  binname: ykman
-  visiblename: ykman (Install)
-  version: 5.9.2
-  origversion: null
-  status: newest
-  summary: |-
-    Python 3.10 (or later) library and command line tool for configuring a YubiKey.
-          If you're looking for a graphical application, check out Yubico Authenticator.
 - repo: alpine_edge
   subrepo: community
   srcname: yubikey-manager
@@ -653,6 +691,37 @@
     - fallback-mnt-aosc@repology
   categories:
     - admin
+- repo: arch
+  subrepo: extra
+  srcname: yubikey-manager
+  binname: yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.9.2
+  origversion: 1:5.9.2-1
+  status: newest
+  summary: Python library and command line tool for configuring a YubiKey
+  licenses:
+    - BSD-2-Clause
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: yubikey-manager
+  binname: yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.9.2
+  origversion: 1:5.9.2-2
+  status: newest
+  summary: Python library and command line tool for configuring a YubiKey
+  licenses:
+    - BSD-2-Clause
+- repo: chocolatey
+  binname: ykman
+  visiblename: ykman (Install)
+  version: 5.9.2
+  origversion: null
+  status: newest
+  summary: |-
+    Python 3.10 (or later) library and command line tool for configuring a YubiKey.
+          If you're looking for a graphical application, check out Yubico Authenticator.
 - repo: chocolatey
   binname: yubikey-manager
   visiblename: Yubikey Manager (Install)
@@ -676,78 +745,6 @@
     - afif@debian.org
     - nicoo@debian.org
     - taowa@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-ykman
-    - python3-yubikey-manager
-  visiblename: yubikey-manager
-  version: 4.0.9
-  origversion: 4.0.9-1
-  status: outdated
-  maintainers:
-    - pkg-auth-maintainers@lists.alioth.debian.org
-    - afif@debian.org
-    - nicoo@debian.org
-    - taowa@debian.org
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-ykman
-  visiblename: yubikey-manager
-  version: 5.6.1
-  origversion: 5.6.1+repack1-1
-  status: outdated
-  maintainers:
-    - pkg-auth-maintainers@lists.alioth.debian.org
-    - afif@debian.org
-    - nicoo@debian.org
-    - taowa@debian.org
-    - winnie@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-ykman
-  visiblename: yubikey-manager
-  version: 5.9.2
-  origversion: 5.9.2-1
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - afif@debian.org
-    - nicoo@debian.org
-    - taowa@debian.org
-    - winnie@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-ykman
-  visiblename: yubikey-manager
-  version: 5.9.2
-  origversion: 5.9.2-1
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - afif@debian.org
-    - nicoo@debian.org
-    - taowa@debian.org
-    - winnie@debian.org
   categories:
     - misc
 - repo: deepin_unstable
@@ -840,24 +837,6 @@
     - BSD
   categories:
     - Unspecified
-- repo: kali_rolling
-  subrepo: main
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-ykman
-  visiblename: yubikey-manager
-  version: 5.9.2
-  origversion: 5.9.2-1
-  status: newest
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - afif@debian.org
-    - nicoo@debian.org
-    - taowa@debian.org
-    - winnie@debian.org
-  categories:
-    - misc
 - repo: epel_9
   srcname: yubikey-manager
   binnames:
@@ -945,21 +924,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-yubikey-manager
-  visiblename: yubikey-manager
-  version: 5.5.0
-  origversion: 5.5.0-2.20240626git669944e.fc41
-  status: legacy
-  summary: Python library and command line tool for configuring a YubiKey
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: yubikey-manager
   binnames:
@@ -969,6 +933,21 @@
   version: 5.6.1
   origversion: 5.6.1-4.20250318gitd4e3188.fc41
   status: outdated
+  summary: Python library and command line tool for configuring a YubiKey
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.5.0
+  origversion: 5.5.0-2.20240626git669944e.fc41
+  status: legacy
   summary: Python library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
@@ -1079,6 +1058,18 @@
     - BSD-2-Clause
   categories:
     - Unspecified
+- repo: pkgsrc_2026_3
+  srcname: security/ykman
+  binname: ykman
+  visiblename: security/ykman
+  version: 5.8.0
+  origversion: null
+  status: outdated
+  summary: Yubico YubiKey manager command-line tool
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - security
 - repo: freebsd
   srcname: security/py-yubikey-manager
   binname: py312-yubikey-manager
@@ -1127,6 +1118,24 @@
   origversion: null
   status: rolling
   summary: Tool for managing your YubiKey configuration
+- repo: kali_rolling
+  subrepo: main
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-ykman
+  visiblename: yubikey-manager
+  version: 5.9.2
+  origversion: 5.9.2-1
+  status: newest
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - afif@debian.org
+    - nicoo@debian.org
+    - taowa@debian.org
+    - winnie@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-crypt/yubikey-manager
   visiblename: app-crypt/yubikey-manager
@@ -1249,21 +1258,24 @@
   summary: Python library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: yubikey-manager
-  binname: yubikey-manager
-  visiblename: yubikey-manager
-  version: 5.9.2
-  origversion: 1:5.9.2-1
-  status: newest
-  summary: Python library and command line tool for configuring a YubiKey
-  licenses:
-    - BSD-2-Clause
 - repo: nix_stable_24_05
   srcname: yubikey-manager
   visiblename: python3.11-yubikey-manager
   version: 5.4.0
+  origversion: null
+  status: outdated
+  summary: Command line tool for configuring any YubiKey over all USB transports
+  maintainers:
+    - benley@gmail.com
+    - lassulus@gmail.com
+    - mail@pablo.tools
+    - nickcao@nichi.co
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_24_11
+  srcname: yubikey-manager
+  visiblename: python3.12-yubikey-manager
+  version: 5.5.1
   origversion: null
   status: outdated
   summary: Command line tool for configuring any YubiKey over all USB transports
@@ -1384,9 +1396,9 @@
   binnames:
     - yubikey-manager
   visiblename: yubikey-manager
-  version: 5.8.0
-  origversion: 5.8.0-1.4
-  status: outdated
+  version: 5.9.2
+  origversion: 5.9.2-1.1
+  status: newest
   summary: Python 3 library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
@@ -1511,18 +1523,6 @@
   origversion: 5.8.0nb1
   status: outdated
   summary: Yubico YubiKey manager library
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - security
-- repo: pkgsrc_2026_3
-  srcname: security/ykman
-  binname: ykman
-  visiblename: security/ykman
-  version: 5.8.0
-  origversion: null
-  status: outdated
-  summary: Yubico YubiKey manager command-line tool
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
