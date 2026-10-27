@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 2 | 0 | 2 | 0 |
-| last60d | 2026-08-27 | 0 | 0 | 2 | 0 | 5 | 0 |
-| 90d | 2026-07-28 | 0 | 0 | 2 | 0 | 5 | 0 |
-| last180d | 2026-04-29 | 1 | 2 | 4 | 1 | 9 | 10 |
-| 360d | 2025-10-31 | 3 | 5 | 9 | 5 | 13 | 76 |
-| last720d | 2024-11-05 | 9 | 12 | 9 | 38 | 23 | 235 |
+| 30d | 2026-09-27 | 0 | 0 | 2 | 0 | 2 | 0 |
+| last60d | 2026-08-28 | 0 | 0 | 2 | 0 | 4 | 0 |
+| 90d | 2026-07-29 | 0 | 0 | 2 | 0 | 5 | 0 |
+| last180d | 2026-04-30 | 1 | 2 | 4 | 1 | 9 | 10 |
+| 360d | 2025-11-01 | 3 | 4 | 9 | 5 | 13 | 76 |
+| last720d | 2024-11-06 | 9 | 12 | 9 | 38 | 23 | 235 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **135** distros on [repology.org](https://repology.org/project/yubikey-manager). **27** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
+Reported by **135** distros on [repology.org](https://repology.org/project/yubikey-manager). **28** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -95,7 +95,7 @@ Reported by **135** distros on [repology.org](https://repology.org/project/yubik
 | Nix unstable | `5.9.2` | ✅ latest |
 | Void | `5.9.2` | ✅ latest |
 | Alpine edge | `5.8.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.8.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `5.9.2` | ✅ latest |
 
 ## Improve this data
 
@@ -106,4 +106,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T06:07:48Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:31:03Z._
