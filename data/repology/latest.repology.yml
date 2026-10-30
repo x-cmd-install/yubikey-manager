@@ -1,12 +1,14 @@
-- repo: parabola
-  subrepo: extra
+- repo: alpine_3_18
+  subrepo: community
   srcname: yubikey-manager
   binname: yubikey-manager
   visiblename: yubikey-manager
-  version: 5.9.2
-  origversion: 1:5.9.2-1
-  status: newest
-  summary: Python library and command line tool for configuring a YubiKey
+  version: 5.1.1
+  origversion: 5.1.1-r0
+  status: outdated
+  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
+  maintainers:
+    - oss@cogitri.dev
   licenses:
     - BSD-2-Clause
 - repo: aerynos
@@ -57,17 +59,15 @@
     - oss@cogitri.dev
   licenses:
     - BSD-2-Clause
-- repo: alpine_3_18
-  subrepo: community
+- repo: parabola
+  subrepo: extra
   srcname: yubikey-manager
   binname: yubikey-manager
   visiblename: yubikey-manager
-  version: 5.1.1
-  origversion: 5.1.1-r0
-  status: outdated
-  summary: Python library and command line tool for configuring any YubiKey over all USB interfaces
-  maintainers:
-    - oss@cogitri.dev
+  version: 5.9.2
+  origversion: 1:5.9.2-1
+  status: newest
+  summary: Python library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_18
@@ -224,17 +224,6 @@
   summary: Precompiled Python bytecode for yubikey-manager
   maintainers:
     - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: yubikey-manager
-  binname: yubikey-manager
-  visiblename: yubikey-manager
-  version: 5.9.1
-  origversion: 1:5.9.1-2
-  status: outdated
-  summary: Python library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
 - repo: alpine_3_21
@@ -923,21 +912,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: yubikey-manager
-  binnames:
-    - yubikey-manager
-    - python3-yubikey-manager
-  visiblename: yubikey-manager
-  version: 5.5.0
-  origversion: 5.5.0-1.20240626git669944e.fc40
-  status: outdated
-  summary: Python library and command line tool for configuring a YubiKey
-  licenses:
-    - BSD-2-Clause
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: yubikey-manager
   binnames:
@@ -952,15 +926,15 @@
     - BSD-2-Clause
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: updates
   srcname: yubikey-manager
   binnames:
     - yubikey-manager
     - python3-yubikey-manager
   visiblename: yubikey-manager
-  version: 5.6.1
-  origversion: 5.6.1-4.20250318gitd4e3188.fc41
+  version: 5.5.0
+  origversion: 5.5.0-1.20240626git669944e.fc40
   status: outdated
   summary: Python library and command line tool for configuring a YubiKey
   licenses:
@@ -982,16 +956,16 @@
     - BSD-2-Clause
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: release
+- repo: fedora_41
+  subrepo: updates
   srcname: yubikey-manager
   binnames:
     - yubikey-manager
     - python3-yubikey-manager
   visiblename: yubikey-manager
   version: 5.6.1
-  origversion: 5.6.1-4.20250318gitd4e3188.fc42
-  status: legacy
+  origversion: 5.6.1-4.20250318gitd4e3188.fc41
+  status: outdated
   summary: Python library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
@@ -1007,6 +981,21 @@
   version: 5.7.1
   origversion: 5.7.1-3.20250726git6641bf0.fc42
   status: outdated
+  summary: Python library and command line tool for configuring a YubiKey
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: yubikey-manager
+  binnames:
+    - yubikey-manager
+    - python3-yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.6.1
+  origversion: 5.6.1-4.20250318gitd4e3188.fc42
+  status: legacy
   summary: Python library and command line tool for configuring a YubiKey
   licenses:
     - BSD-2-Clause
@@ -1235,6 +1224,17 @@
     - BSD-like
   categories:
     - Security
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: yubikey-manager
+  binname: yubikey-manager
+  visiblename: yubikey-manager
+  version: 5.9.1
+  origversion: 1:5.9.1-2
+  status: outdated
+  summary: Python library and command line tool for configuring a YubiKey
+  licenses:
+    - BSD-2-Clause
 - repo: manjaro_testing
   subrepo: extra
   srcname: yubikey-manager
@@ -1435,7 +1435,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: yubikey-manager
   binnames:
     - yubikey-manager
@@ -1453,7 +1453,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: yubikey-manager
   binnames:
     - yubikey-manager
