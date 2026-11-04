@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `5.9.2` (2026-06-30)
+- **Latest**: `6.0.0-beta.0` (2026-06-30)
 - **Last commit**: 2026-06-30
 - **Assets in release**: 8
 
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 48 · **Merged PRs**: 265 · **Open PRs**: 13 · **Closed issues**: 323 · **Open issues**: 49 · **Commits**: 3049
+- **Releases**: 49 · **Merged PRs**: 265 · **Open PRs**: 13 · **Closed issues**: 323 · **Open issues**: 49 · **Commits**: 3049
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 0 | 2 | 0 | 2 | 0 |
-| last60d | 2026-09-04 | 0 | 0 | 2 | 0 | 4 | 0 |
-| 90d | 2026-08-05 | 0 | 0 | 2 | 0 | 5 | 0 |
-| last180d | 2026-05-07 | 1 | 1 | 4 | 0 | 9 | 9 |
-| 360d | 2025-11-08 | 3 | 4 | 9 | 5 | 13 | 74 |
-| last720d | 2024-11-13 | 9 | 12 | 9 | 38 | 23 | 235 |
+| 30d | 2026-10-05 | 1 | 0 | 2 | 0 | 2 | 0 |
+| last60d | 2026-09-05 | 1 | 0 | 2 | 0 | 4 | 0 |
+| 90d | 2026-08-06 | 1 | 0 | 2 | 0 | 5 | 0 |
+| last180d | 2026-05-08 | 2 | 1 | 4 | 0 | 9 | 9 |
+| 360d | 2025-11-09 | 4 | 4 | 9 | 5 | 13 | 74 |
+| last720d | 2024-11-14 | 10 | 12 | 9 | 38 | 23 | 235 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **136** distros on [repology.org](https://repology.org/project/yubikey-manager). **28** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
+Reported by **137** distros on [repology.org](https://repology.org/project/yubikey-manager). **28** are ✅ on the latest upstream release, **97** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -106,4 +106,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:27:22Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:53:05Z._
