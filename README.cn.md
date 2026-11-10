@@ -30,8 +30,8 @@ x install yubikey-manager
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 3/20 approved changesets -- score normalized to 1
 - **Maintained** (0/10) — 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/20 approved changesets -- score normalized to 1
 - **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
@@ -58,12 +58,12 @@ x install yubikey-manager
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 1 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-10 | 1 | 0 | 2 | 0 | 4 | 0 |
-| 90d | 2026-08-11 | 1 | 0 | 2 | 0 | 5 | 0 |
-| last180d | 2026-05-13 | 2 | 1 | 4 | 0 | 9 | 9 |
-| 360d | 2025-11-14 | 4 | 4 | 9 | 5 | 13 | 66 |
-| last720d | 2024-11-19 | 10 | 12 | 9 | 38 | 23 | 235 |
+| 30d | 2026-10-11 | 1 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-11 | 1 | 0 | 2 | 0 | 4 | 0 |
+| 90d | 2026-08-12 | 1 | 0 | 2 | 0 | 5 | 0 |
+| last180d | 2026-05-14 | 2 | 1 | 4 | 0 | 9 | 9 |
+| 360d | 2025-11-15 | 4 | 4 | 9 | 5 | 13 | 66 |
+| last720d | 2024-11-20 | 10 | 12 | 9 | 38 | 23 | 235 |
 
 ## Release 资产
 
@@ -106,4 +106,4 @@ yubikey-manager 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/i
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261109.yml` · 2026-11-09T08:06:33Z._
+_数据快照: `data/card/261110.yml` · 2026-11-10T09:06:46Z._
