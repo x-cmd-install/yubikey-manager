@@ -26,13 +26,13 @@ Total: **84,300** lines of code across **255** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6 / 10**
+Overall score: **7.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/20 approved changesets -- score normalized to 1
-- **Maintained** (0/10) — 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (2/10) — Found 1/5 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,223 · **Forks**: 162 · **Open issues**: 374 · **Contributors**: 61
+- **Stars**: 1,224 · **Forks**: 162 · **Open issues**: 374 · **Contributors**: 61
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 1 | 1 | 3 | 0 | 2 | 17 |
-| last60d | 2026-09-24 | 1 | 1 | 3 | 0 | 5 | 103 |
-| 90d | 2026-08-25 | 1 | 1 | 3 | 0 | 7 | 113 |
-| last180d | 2026-05-27 | 2 | 2 | 4 | 0 | 10 | 303 |
-| 360d | 2025-11-28 | 4 | 5 | 6 | 5 | 15 | 772 |
-| last720d | 2024-12-03 | 10 | 13 | 6 | 38 | 24 | 949 |
+| 30d | 2026-10-25 | 1 | 1 | 3 | 0 | 2 | 17 |
+| last60d | 2026-09-25 | 1 | 1 | 3 | 0 | 4 | 103 |
+| 90d | 2026-08-26 | 1 | 1 | 3 | 0 | 7 | 113 |
+| last180d | 2026-05-28 | 2 | 2 | 4 | 0 | 10 | 303 |
+| 360d | 2025-11-29 | 4 | 5 | 6 | 4 | 15 | 772 |
+| last720d | 2024-12-04 | 10 | 13 | 6 | 38 | 24 | 949 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:51:21Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:18:23Z._
