@@ -14,14 +14,14 @@ x install yubikey-manager
 
 ## Code insight
 
-Total: **84,300** lines of code across **255** files in the top 5 languages.
+Total: **86,010** lines of code across **258** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 69,900 | 2,956 | 7,720 | 157 |
+| Rust | 71,480 | 3,052 | 7,822 | 160 |
 | Python | 12,083 | 819 | 2,491 | 71 |
-| AsciiDoc | 954 | 0 | 359 | 8 |
-| Toml | 587 | 14 | 91 | 12 |
+| AsciiDoc | 1,075 | 0 | 408 | 8 |
+| Toml | 598 | 14 | 91 | 12 |
 | PowerShell | 299 | 15 | 26 | 7 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `6.0.0-beta.0` (2026-06-30)
-- **Last commit**: 2026-11-17
+- **Last commit**: 2026-11-25
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 1,229 · **Forks**: 163 · **Open issues**: 374 · **Contributors**: 61
+- **Stars**: 1,230 · **Forks**: 162 · **Open issues**: 374 · **Contributors**: 61
 
 ## Totals (cumulative)
 
-- **Releases**: 49 · **Merged PRs**: 266 · **Open PRs**: 11 · **Closed issues**: 323 · **Open issues**: 51 · **Commits**: 3763
+- **Releases**: 49 · **Merged PRs**: 267 · **Open PRs**: 10 · **Closed issues**: 324 · **Open issues**: 50 · **Commits**: 3790
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 1 | 4 | 0 | 2 | 17 |
-| last60d | 2026-09-27 | 1 | 1 | 4 | 0 | 4 | 103 |
-| 90d | 2026-08-28 | 1 | 1 | 4 | 0 | 6 | 113 |
-| last180d | 2026-05-30 | 2 | 2 | 5 | 0 | 10 | 303 |
-| 360d | 2025-12-01 | 4 | 5 | 7 | 4 | 15 | 772 |
-| last720d | 2024-12-06 | 10 | 12 | 7 | 38 | 24 | 948 |
+| 30d | 2026-10-28 | 1 | 2 | 3 | 1 | 1 | 42 |
+| last60d | 2026-09-28 | 1 | 2 | 3 | 1 | 3 | 128 |
+| 90d | 2026-08-29 | 1 | 2 | 3 | 1 | 5 | 138 |
+| last180d | 2026-05-31 | 2 | 3 | 4 | 1 | 9 | 328 |
+| 360d | 2025-12-02 | 4 | 6 | 6 | 5 | 14 | 797 |
+| last720d | 2024-12-07 | 10 | 13 | 6 | 39 | 23 | 975 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T09:29:03Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T10:33:19Z._
