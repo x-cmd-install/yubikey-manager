@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 49 · **Merged PRs**: 267 · **Open PRs**: 10 · **Closed issues**: 324 · **Open issues**: 50 · **Commits**: 3790
+- **Releases**: 49 · **Merged PRs**: 267 · **Open PRs**: 11 · **Closed issues**: 324 · **Open issues**: 50 · **Commits**: 3790
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 2 | 3 | 1 | 1 | 42 |
-| last60d | 2026-09-28 | 1 | 2 | 3 | 1 | 3 | 128 |
-| 90d | 2026-08-29 | 1 | 2 | 3 | 1 | 5 | 138 |
-| last180d | 2026-05-31 | 2 | 3 | 4 | 1 | 9 | 328 |
-| 360d | 2025-12-02 | 4 | 6 | 6 | 5 | 14 | 797 |
-| last720d | 2024-12-07 | 10 | 13 | 6 | 39 | 23 | 975 |
+| 30d | 2026-10-29 | 1 | 2 | 4 | 1 | 1 | 42 |
+| last60d | 2026-09-29 | 1 | 2 | 4 | 1 | 3 | 128 |
+| 90d | 2026-08-30 | 1 | 2 | 4 | 1 | 5 | 138 |
+| last180d | 2026-06-01 | 2 | 3 | 5 | 1 | 9 | 328 |
+| 360d | 2025-12-03 | 4 | 6 | 7 | 5 | 14 | 797 |
+| last720d | 2024-12-08 | 10 | 13 | 7 | 39 | 23 | 975 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for yubikey-manager lives in the [x-cmd/install](https://github
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:33:19Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:37:22Z._
